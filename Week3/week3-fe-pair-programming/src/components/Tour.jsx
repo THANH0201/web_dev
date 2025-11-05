@@ -1,4 +1,4 @@
-const Tour = ({id, image, date, title, info, icon, location, duration, cost}) => {
+const Tour = ({id, image, date, title, info, icon1, location, icon2, duration, icon3, cost}) => {
   return (
     <article className="tour-card">
       <div className="tour-img-container">
@@ -19,12 +19,16 @@ const Tour = ({id, image, date, title, info, icon, location, duration, cost}) =>
         <div className="tour-footer">
           <p>
             {/* 5. location */}
-            <span>{icon && <i className={icon}></i>}</span>{location}
+            <span>{icon1 && <i className={icon1}></i>}</span>{location}
           </p>
           {/* 6. price */}
-          <p>from {cost}</p>
+          <p>
+            <span>{icon2 && <i className={icon2}></i>}</span>from {cost}
+          </p>
           {/* 7. duration */}
-          <p>{duration}</p>
+          <p>
+            <span>{icon3 && <i className={icon3}></i>}</span>{duration}
+          </p>
         </div>
       </div>
     </article>

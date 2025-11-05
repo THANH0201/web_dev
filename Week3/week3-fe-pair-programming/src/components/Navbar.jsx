@@ -1,4 +1,5 @@
 import logo from '../assets/images/logo.svg';
+import PageLinks from './PageLinks';
 const Navbar = () => {
   return (
     <div>
@@ -11,12 +12,7 @@ const Navbar = () => {
               <i className="fas fa-bars"></i>
             </button>
           </div>
-          <ul className="nav-links" id="nav-links">
-            <li><a href="#home" className="nav-link">home</a></li>
-            <li><a href="#about" className="nav-link">about</a></li>
-            <li><a href="#services" className="nav-link">services</a></li>
-            <li><a href="#tours" className="nav-link">tours</a></li>
-          </ul>
+            <PageLinks parentClass='nav-links' itemClass='nav-link' />
           <ul className="nav-icons">
             <li>
               <a href="https://www.facebook.com" target="_blank" rel="noreferrer" className="nav-icon"><i

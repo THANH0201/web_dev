@@ -2,6 +2,8 @@ import tour1 from "./assets/images/tour-1.jpeg";
 import tour2 from "./assets/images/tour-2.jpeg";
 import tour3 from "./assets/images/tour-3.jpeg";
 import tour4 from "./assets/images/tour-4.jpeg";
+import tour5 from "./assets/images/tour-4.jpeg";
+import tour6 from "./assets/images/tour-4.jpeg";
 
 export const pageLinks = [
   { id: 1, href: "#home", text: "home" },
@@ -77,5 +79,31 @@ export const tours = [
     location: "kenya",
     duration: 20,
     cost: 3300,
+  },
+  {
+    id: 5,
+    image: tour1,
+    date: "december 15th, 2025",
+    title: "Vietnam Adventure",
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    icon1: "fas fa-map-marker-alt",
+    location: "Vietnam",
+    icon2: "fas fa-money-bill",
+    duration: 15,
+    icon3: "fas fa-clock",
+    cost: 2090,
+  },
+  {
+    id: 6,
+    image: tour2, 
+    date: "november 25th, 2025",
+    title: "Philippines Highlights",
+    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,  
+    icon1: "fas fa-map-marker-alt",
+    location: "Philippines",
+    icon2: "fas fa-money-bill",
+    duration: 10,
+    icon3: "fas fa-clock",
+    cost: 1200,
   },
 ];
