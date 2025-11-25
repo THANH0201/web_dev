@@ -1,0 +1,2 @@
+### Answer this question: Did you need to make any changes to the tour-related controller functions? Why or why not?
+No — we do not need to change the tour-related controller functions in Iteration 5. In Iteration 2, the changes required to secure tours (adding user_id to the model, applying requireAuth to the routes, and making the tour controllers filter by req.user._id) already make the tour controllers behave correctly for per-user isolation and will satisfy the tests.
